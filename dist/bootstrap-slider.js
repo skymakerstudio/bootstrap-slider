@@ -1,5 +1,5 @@
 /*! =======================================================
-                      VERSION  10.6.0              
+                      VERSION  10.6.0
 ========================================================= */
 "use strict";
 
@@ -66,6 +66,8 @@ var windowIsDefined = (typeof window === "undefined" ? "undefined" : _typeof(win
 		window.Slider = factory(window.jQuery);
 	}
 })(function ($) {
+  $ = null
+
 	// Constants
 	var NAMESPACE_MAIN = 'slider';
 	var NAMESPACE_ALTERNATE = 'bootstrapSlider';
